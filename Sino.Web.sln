@@ -3,9 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4DABCF42-87A6-4ED1-A7A1-B2B1D0EE9482}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4F42D95A-1442-4AC1-91DB-6A5C29294E03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".global", ".global", "{C44337B7-AF3F-4768-A10B-02D60771D00B}"
+	ProjectSection(SolutionItems) = preProject
+		appveyor.yml = appveyor.yml
+		Build.ps1 = Build.ps1
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sino.Web", "src\Sino.Web\Sino.Web.csproj", "{0886E2E0-B4EC-4C9A-A839-846E90C53A35}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0886E2E0-B4EC-4C9A-A839-846E90C53A35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0886E2E0-B4EC-4C9A-A839-846E90C53A35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0886E2E0-B4EC-4C9A-A839-846E90C53A35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0886E2E0-B4EC-4C9A-A839-846E90C53A35}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0886E2E0-B4EC-4C9A-A839-846E90C53A35} = {4DABCF42-87A6-4ED1-A7A1-B2B1D0EE9482}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {69EF8B66-AA1E-40B4-8687-079773A20C7C}
