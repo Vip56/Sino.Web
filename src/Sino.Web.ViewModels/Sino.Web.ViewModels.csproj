@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <Version>1.0.0-beta1</Version>
+    <Authors>Sino</Authors>
+    <Company>Sino</Company>
+    <Description>视图模型基础类</Description>
+    <PackageIconUrl>http://avatars0.githubusercontent.com/u/16951448?v=3&amp;s=70</PackageIconUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+</Project>
