@@ -1,7 +1,7 @@
 ﻿# Sino.Web
 该项目用于规范后期所有后台开发的规范并为后期更好的升级做好前期准备工作。   
 
-[![Build status](https://ci.appveyor.com/api/projects/status/b64xdqtjcmj8syo9/branch/dev?svg=true)](https://ci.appveyor.com/project/vip56/sino-web/branch/dev)  
+[![Build status](https://ci.appveyor.com/api/projects/status/b64xdqtjcmj8syo9/branch/dev?svg=true)](https://ci.appveyor.com/project/vip56/sino-web/branch/dev)
 [![NuGet](https://img.shields.io/nuget/v/Nuget.Core.svg?style=plastic)](https://www.nuget.org/packages/Sino.Web)   
 
 ## 如何使用
