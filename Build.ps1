@@ -19,5 +19,7 @@ $revision = @{ $true = $env:APPVEYOR_BUILD_NUMBER; $false = 1 }[$env:APPVEYOR_BU
 $revision = [convert]::ToInt32($revision, 10)
 
 exec { & dotnet pack .\src\Sino.Web -c Release -o .\artifacts --version-suffix=$revision }
+exec { & dotnet pack .\src\Sino.Web.ViewModels -c Release -o .\artifacts --version-suffix=$revision }
 
 exec { & dotnet nuget push .\src\Sino.Web\artifacts\*.nupkg -k cccc9d81-f2a8-4230-92ef-5516f045ce45 -s https://api.nuget.org/v3/index.json }
+exec { & dotnet nuget push .\src\Sino.Web.ViewModels\artifacts\*.nupkg -k cccc9d81-f2a8-4230-92ef-5516f045ce45 -s https://api.nuget.org/v3/index.json }

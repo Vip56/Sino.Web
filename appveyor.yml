@@ -6,5 +6,5 @@ build_script:
 - ps: .\Build.ps1
 test: off
 artifacts:  
-- path: .\src\Sino.FileManager\artifacts\*.nupkg
+- path: .\src\Sino.Web\artifacts\*.nupkg
   name: NuGet
