@@ -1,4 +1,4 @@
-﻿namespace Sino.Web.ViewModels
+﻿namespace Sino.ViewModels
 {
     /// <summary>
     /// 视图输出根类
