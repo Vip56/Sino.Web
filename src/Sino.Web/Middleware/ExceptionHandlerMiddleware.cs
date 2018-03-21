@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 using NLog;
 using Sino;
 using Sino.Runtime;
-using Sino.Web.ViewModels;
+using Sino.ViewModels;
 using System;
 using System.Threading.Tasks;
 
