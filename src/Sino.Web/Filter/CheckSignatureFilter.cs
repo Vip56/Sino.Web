@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc.Controllers;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Primitives;
-using Sino.Web.ViewModels;
+using Sino.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;

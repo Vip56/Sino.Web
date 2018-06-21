@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Sino.Web.ViewModels
+namespace Sino.ViewModels
 {
     public class ListResponse<T>
     {
