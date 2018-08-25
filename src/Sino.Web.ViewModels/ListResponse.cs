@@ -9,6 +9,7 @@ namespace Sino.ViewModels
         /// </summary>
         public List<T> Data { get; set; }
 
+
         /// <summary>
         /// 列表总数
         /// </summary>
