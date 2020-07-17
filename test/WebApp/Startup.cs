@@ -41,7 +41,8 @@ namespace WebApp
             services.AddMvc(x =>
             {
                 x.Filters.Add(typeof(GlobalResultFilter));
-                x.Filters.Add(typeof(CheckSignatureFilter));
+                //x.Filters.Add(typeof(CheckSignatureFilter));
+                x.Filters.Add(typeof(InputOutputLogFilter));
             });
             services.Configure<GzipCompressionProviderOptions>(options => options.Level = System.IO.Compression.CompressionLevel.Fastest);
             services.AddResponseCompression(options =>
@@ -72,7 +73,7 @@ namespace WebApp
             loggerFactory.AddDebug();
             loggerFactory.AddNLog();
 
-            NLog.LogManager.LoadConfiguration("nlog.config");
+            loggerFactory.ConfigureNLog($"nlog.{env.EnvironmentName}.config");
 
             app.UseResponseCompression();
             //app.UseCookieAuthentication(new CookieAuthenticationOptions()

@@ -1,13 +1,4 @@
-﻿using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Http;
-using Newtonsoft.Json;
-using Sino.Web.ViewModels;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace WebApp
+﻿namespace WebApp
 {
     //public class DefaultAuthenticationEvents : CookieAuthenticationEvents
     //{
