@@ -22,4 +22,4 @@ exec { & dotnet pack .\src\Sino.Web -c Release -o .\artifacts --version-suffix=$
 exec { & dotnet pack .\src\Sino.Web.ViewModels -c Release -o .\artifacts --version-suffix=$revision }
 
 exec { & dotnet nuget push .\src\Sino.Web\artifacts\*.nupkg -k cccc9d81-f2a8-4230-92ef-5516f045ce45 -s https://api.nuget.org/v3/index.json }
-exec { & dotnet nuget push .\src\Sino.Web.ViewModels\artifacts\*.nupkg -k cccc9d81-f2a8-4230-92ef-5516f045ce45 -s https://api.nuget.org/v3/index.json }
+exec { & dotnet nuget push .\src\Sino.Web.ViewModels\artifacts\*.nupkg -k oy2ixf57qsticjyoxg6aqm2cq4sntz6utpl6jc432dcjh4 -s https://api.nuget.org/v3/index.json }
