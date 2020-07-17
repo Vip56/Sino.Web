@@ -8,6 +8,7 @@ using Newtonsoft.Json;
 using Microsoft.AspNetCore.Authorization;
 using System.Diagnostics;
 using WebApp.Services;
+using Sino.Web.Filter;
 
 namespace WebApp.Controllers
 {
@@ -31,6 +32,7 @@ namespace WebApp.Controllers
 
         // GET api/values
         [HttpGet]
+        [OutputLog]
         public async Task<IEnumerable<a>> Get()
         {
             Stopwatch watch = Stopwatch.StartNew();
