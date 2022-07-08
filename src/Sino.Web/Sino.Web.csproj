@@ -19,7 +19,7 @@
     <PackageReference Include="Dapper" Version="1.50.4" />
     <PackageReference Include="FluentValidation" Version="7.5.0" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics" Version="2.0.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.0.1" />
     <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="2.0.0" />
     <PackageReference Include="NLog" Version="4.5.0-rc06" />
     <PackageReference Include="Scrutor" Version="2.2.1" />
